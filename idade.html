@@ -18,14 +18,24 @@
     <section>
 
         <div>
-            Ano de nascimento: <input type="number" name="nasc" id="nasc">
+            Ano de nascimento: <input type="number" name="nasc" id="nasc" min="1">
             
 
             <input type="button" value="Verificar" onclick="verificar()">
         
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+               
+            </p>
+
         </div>
         <div id="resultado">
-            Preencha os dados acima para ver o resultado!</div>
+            Preencha os dados acima para ver o resultado!
+        
+        </div>
         
     </section>
 
